@@ -1,0 +1,412 @@
+{
+  "info": {
+    "_postman_id": "01be18a7-2542-449e-b924-718b0c1f09c6",
+    "name": "tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27538152"
+  },
+  "item": [
+    {
+      "name": "http://127.0.0.1:8000/api/DataAPIView/",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Год_рождения\": 2002, \r\n      \"Подписаны_документы\": \"\", \r\n      \"Пол\": \"Female\", \r\n      \"БылПростой\": \"Yes\", \r\n      \"ОпытВДолжности\": 2.0, \r\n      \"Активность\": 394.0, \r\n      \"Знак_зодиака\": \"Водолей\", \r\n      \"Возраст\": 24.0,\r\n      \"Оценка_HR\": 1.0,\r\n      \"УровеньОплаты\": 2.0, \r\n      \"Офлайн_участие\": 0, \r\n      \"Образование\": \"Bachelors\", \r\n      \"Телефон\": 912758264161.0, \r\n      \"Город\": \"Pune\", \r\n      \"Размер\": \"M\", \r\n      \"Закрытые_проекты\": 11.0, \r\n      \"ГодНайма\": 2015.0, \r\n      \"Курсы\": 1.0}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/DataAPIView/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "DataAPIView",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/apiurl/DataURLAPIView/",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/apiurl/DataURLAPIView/?god_rojdeniya=2002&podpisani_documenti&pol=Female&bil_prostoy=Yes&opit_v_doljnosti=2&activnost=394&znak_zodiaka=Водолей&vozrast=24&ocenka_hr=1&uroven_oplati=2&oflain_meropriyatiya=0&obrazovanie=Bachelors&telefon=912758264161&gorod=Pune&razmer=M&zakritie_proekti=11&god_nayma=2015&kursi=1",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "apiurl",
+            "DataURLAPIView",
+            ""
+          ],
+          "query": [
+            {
+              "key": "god_rojdeniya",
+              "value": "2002"
+            },
+            {
+              "key": "podpisani_documenti",
+              "value": null
+            },
+            {
+              "key": "pol",
+              "value": "Female"
+            },
+            {
+              "key": "bil_prostoy",
+              "value": "Yes"
+            },
+            {
+              "key": "opit_v_doljnosti",
+              "value": "2"
+            },
+            {
+              "key": "activnost",
+              "value": "394"
+            },
+            {
+              "key": "znak_zodiaka",
+              "value": "Водолей"
+            },
+            {
+              "key": "vozrast",
+              "value": "24"
+            },
+            {
+              "key": "ocenka_hr",
+              "value": "1"
+            },
+            {
+              "key": "uroven_oplati",
+              "value": "2"
+            },
+            {
+              "key": "oflain_meropriyatiya",
+              "value": "0"
+            },
+            {
+              "key": "obrazovanie",
+              "value": "Bachelors"
+            },
+            {
+              "key": "telefon",
+              "value": "912758264161"
+            },
+            {
+              "key": "gorod",
+              "value": "Pune"
+            },
+            {
+              "key": "razmer",
+              "value": "M"
+            },
+            {
+              "key": "zakritie_proekti",
+              "value": "11"
+            },
+            {
+              "key": "god_nayma",
+              "value": "2015"
+            },
+            {
+              "key": "kursi",
+              "value": "1"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/api/DataAPIView/",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Год_рождения\": 1993, \r\n      \"Подписаны_документы\": \"\", \r\n      \"Пол\": \"Male\", \r\n      \"БылПростой\": \"No\", \r\n      \"ОпытВДолжности\": 2.0, \r\n      \"Активность\": 94.0, \r\n      \"Знак_зодиака\": \"Телец\", \r\n      \"Возраст\": 32.0,\r\n      \"Оценка_HR\": 8.0,\r\n      \"УровеньОплаты\": 2.0, \r\n      \"Офлайн_участие\": 0, \r\n      \"Образование\": \"Masters\", \r\n      \"Телефон\": 918364696468.0, \r\n      \"Город\": \"New Delhi\", \r\n      \"Размер\": \"XL\", \r\n      \"Закрытые_проекты\": 11.0, \r\n      \"ГодНайма\": 2017.0, \r\n      \"Курсы\": 1.0}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/DataAPIView/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "DataAPIView",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/apiurl/DataURLAPIView/",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/apiurl/DataURLAPIView/?god_rojdeniya=1995&podpisani_documenti=&pol=Male&bil_prostoy=No&opit_v_doljnosti=3&activnost=6&znak_zodiaka=Весы&vozrast=31&ocenka_hr=0&uroven_oplati=3&oflain_meropriyatiya=1&obrazovanie=PHD&telefon=919004230452&gorod=New Delhi&razmer=L&zakritie_proekti=1&god_nayma=2015&kursi=3",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "apiurl",
+            "DataURLAPIView",
+            ""
+          ],
+          "query": [
+            {
+              "key": "god_rojdeniya",
+              "value": "1995"
+            },
+            {
+              "key": "podpisani_documenti",
+              "value": ""
+            },
+            {
+              "key": "pol",
+              "value": "Male"
+            },
+            {
+              "key": "bil_prostoy",
+              "value": "No"
+            },
+            {
+              "key": "opit_v_doljnosti",
+              "value": "3"
+            },
+            {
+              "key": "activnost",
+              "value": "6"
+            },
+            {
+              "key": "znak_zodiaka",
+              "value": "Весы"
+            },
+            {
+              "key": "vozrast",
+              "value": "31"
+            },
+            {
+              "key": "ocenka_hr",
+              "value": "0"
+            },
+            {
+              "key": "uroven_oplati",
+              "value": "3"
+            },
+            {
+              "key": "oflain_meropriyatiya",
+              "value": "1"
+            },
+            {
+              "key": "obrazovanie",
+              "value": "PHD"
+            },
+            {
+              "key": "telefon",
+              "value": "919004230452"
+            },
+            {
+              "key": "gorod",
+              "value": "New Delhi"
+            },
+            {
+              "key": "razmer",
+              "value": "L"
+            },
+            {
+              "key": "zakritie_proekti",
+              "value": "1"
+            },
+            {
+              "key": "god_nayma",
+              "value": "2015"
+            },
+            {
+              "key": "kursi",
+              "value": "3"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/api/DataAPIViewABTest/",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"Год_рождения\": 1993, \r\n      \"Подписаны_документы\": \"\", \r\n      \"Пол\": \"Male\", \r\n      \"БылПростой\": \"No\", \r\n      \"ОпытВДолжности\": 2.0, \r\n      \"Активность\": 94.0, \r\n      \"Знак_зодиака\": \"Телец\", \r\n      \"Возраст\": 32.0,\r\n      \"Оценка_HR\": 8.0,\r\n      \"УровеньОплаты\": 2.0, \r\n      \"Офлайн_участие\": 0, \r\n      \"Образование\": \"Masters\", \r\n      \"Телефон\": 918364696468.0, \r\n      \"Город\": \"New Delhi\", \r\n      \"Размер\": \"XL\", \r\n      \"Закрытые_проекты\": 11.0, \r\n      \"ГодНайма\": 2017.0, \r\n      \"Курсы\": 1.0}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/api/DataAPIViewABTest/",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "DataAPIViewABTest",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://127.0.0.1:8000/apiurl/DataURLAPIViewABTest/",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8000/apiurl/DataURLAPIViewABTest/?god_rojdeniya=1995&podpisani_documenti=&pol=Male&bil_prostoy=No&opit_v_doljnosti=3&activnost=6&znak_zodiaka=Весы&vozrast=31&ocenka_hr=0&uroven_oplati=3&oflain_meropriyatiya=1&obrazovanie=PHD&telefon=919004230452&gorod=New Delhi&razmer=L&zakritie_proekti=1&god_nayma=2015&kursi=3",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "apiurl",
+            "DataURLAPIViewABTest",
+            ""
+          ],
+          "query": [
+            {
+              "key": "god_rojdeniya",
+              "value": "1995"
+            },
+            {
+              "key": "podpisani_documenti",
+              "value": ""
+            },
+            {
+              "key": "pol",
+              "value": "Male"
+            },
+            {
+              "key": "bil_prostoy",
+              "value": "No"
+            },
+            {
+              "key": "opit_v_doljnosti",
+              "value": "3"
+            },
+            {
+              "key": "activnost",
+              "value": "6"
+            },
+            {
+              "key": "znak_zodiaka",
+              "value": "Весы"
+            },
+            {
+              "key": "vozrast",
+              "value": "31"
+            },
+            {
+              "key": "ocenka_hr",
+              "value": "0"
+            },
+            {
+              "key": "uroven_oplati",
+              "value": "3"
+            },
+            {
+              "key": "oflain_meropriyatiya",
+              "value": "1"
+            },
+            {
+              "key": "obrazovanie",
+              "value": "PHD"
+            },
+            {
+              "key": "telefon",
+              "value": "919004230452"
+            },
+            {
+              "key": "gorod",
+              "value": "New Delhi"
+            },
+            {
+              "key": "razmer",
+              "value": "L"
+            },
+            {
+              "key": "zakritie_proekti",
+              "value": "1"
+            },
+            {
+              "key": "god_nayma",
+              "value": "2015"
+            },
+            {
+              "key": "kursi",
+              "value": "3"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
